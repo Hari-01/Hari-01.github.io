@@ -2,7 +2,12 @@
 <html>
 <body>
 <h1>ANPR</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<input type="image" src="submit.gif" alt="Submit" style="float:right" width="48" height="48">
+<p>Please input images</p>
+<!-- <input type="image" src="submit.gif" alt="Submit" style="float:right" width="48" height="48"> -->
+<form action="/action_page.php">
+  <label for="img">Input image image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+  <input type="submit">
+</form>
 </body>
 </html>
